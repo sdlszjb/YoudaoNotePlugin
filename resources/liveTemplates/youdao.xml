@@ -1,0 +1,63 @@
+<templateSet group="有道云笔记">
+  <template name="sub" value="$start$_{$end$}" toReformat="false" toShortenFQNames="true">
+    <variable name="start" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="sup" value="$start$^{$end$}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="start" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="inline" value="`$$$start$$$`" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="start" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="inl_sub" value="`$$$start$_{$end$}$$`" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="start" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="inl_sup" value="`$$$start$^{$end$}$$`" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="start" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="math" value="```math&#10;$start$&#10;```" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="start" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="math_cases" value="```math&#10;$start$=\begin{cases}&#10;$end$&#10;\end{cases}&#10;```" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="start" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="math_frac" value="```math&#10;\frac{$start$}{$end$}&#10;\end{cases}&#10;```" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="start" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="frac" value="\frac{$start$}{$end$}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="start" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

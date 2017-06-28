@@ -1,17 +1,18 @@
 <idea-plugin>
-  <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <id>youdao_live_templates</id>
+  <name>youdao_live_templates</name>
   <version>1.0</version>
-  <vendor email="sdlszjb@qq.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="sdlszjb@qq.com" url="https://github.com/sdlszjb/YoudaoNotePlugin">@sdlszjb</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      <h2>有道云笔记Markdown插件</h2>
+      <p><a href="https://github.com/sdlszjb/YoudaoNotePlugin">项目主页</a></p>
     ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      <ul>
+        <li>Hello world</li>
+      </ul>
     ]]>
   </change-notes>
 
@@ -26,6 +27,7 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
+    <defaultLiveTemplatesProvider implementation="YoudaoTemplateProvider" />
   </extensions>
 
   <actions>
